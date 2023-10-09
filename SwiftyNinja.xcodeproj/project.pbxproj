@@ -15,6 +15,23 @@
 		653E5F042AD4440B002FC33F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 653E5F022AD4440B002FC33F /* Main.storyboard */; };
 		653E5F062AD4440C002FC33F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 653E5F052AD4440C002FC33F /* Assets.xcassets */; };
 		653E5F092AD4440C002FC33F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 653E5F072AD4440C002FC33F /* LaunchScreen.storyboard */; };
+		653E5F212AD444A9002FC33F /* sliceFuse.sks in Resources */ = {isa = PBXBuildFile; fileRef = 653E5F102AD444A9002FC33F /* sliceFuse.sks */; };
+		653E5F222AD444A9002FC33F /* sliceLife@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 653E5F112AD444A9002FC33F /* sliceLife@2x.png */; };
+		653E5F232AD444A9002FC33F /* sliceBomb@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 653E5F122AD444A9002FC33F /* sliceBomb@2x.png */; };
+		653E5F242AD444A9002FC33F /* sliceLifeGone@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 653E5F132AD444A9002FC33F /* sliceLifeGone@2x.png */; };
+		653E5F252AD444A9002FC33F /* spark.png in Resources */ = {isa = PBXBuildFile; fileRef = 653E5F142AD444A9002FC33F /* spark.png */; };
+		653E5F262AD444A9002FC33F /* wrong.caf in Resources */ = {isa = PBXBuildFile; fileRef = 653E5F152AD444A9002FC33F /* wrong.caf */; };
+		653E5F272AD444A9002FC33F /* whack.caf in Resources */ = {isa = PBXBuildFile; fileRef = 653E5F162AD444A9002FC33F /* whack.caf */; };
+		653E5F282AD444A9002FC33F /* launch.caf in Resources */ = {isa = PBXBuildFile; fileRef = 653E5F172AD444A9002FC33F /* launch.caf */; };
+		653E5F292AD444A9002FC33F /* explosion.caf in Resources */ = {isa = PBXBuildFile; fileRef = 653E5F182AD444A9002FC33F /* explosion.caf */; };
+		653E5F2A2AD444A9002FC33F /* sliceBackground@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 653E5F192AD444A9002FC33F /* sliceBackground@2x.png */; };
+		653E5F2B2AD444A9002FC33F /* sliceHitEnemy.sks in Resources */ = {isa = PBXBuildFile; fileRef = 653E5F1A2AD444A9002FC33F /* sliceHitEnemy.sks */; };
+		653E5F2C2AD444A9002FC33F /* sliceBombFuse.caf in Resources */ = {isa = PBXBuildFile; fileRef = 653E5F1B2AD444A9002FC33F /* sliceBombFuse.caf */; };
+		653E5F2D2AD444A9002FC33F /* sliceHitBomb.sks in Resources */ = {isa = PBXBuildFile; fileRef = 653E5F1C2AD444A9002FC33F /* sliceHitBomb.sks */; };
+		653E5F2E2AD444A9002FC33F /* penguin@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 653E5F1D2AD444A9002FC33F /* penguin@2x.png */; };
+		653E5F2F2AD444A9002FC33F /* swoosh3.caf in Resources */ = {isa = PBXBuildFile; fileRef = 653E5F1E2AD444A9002FC33F /* swoosh3.caf */; };
+		653E5F302AD444A9002FC33F /* swoosh2.caf in Resources */ = {isa = PBXBuildFile; fileRef = 653E5F1F2AD444A9002FC33F /* swoosh2.caf */; };
+		653E5F312AD444A9002FC33F /* swoosh1.caf in Resources */ = {isa = PBXBuildFile; fileRef = 653E5F202AD444A9002FC33F /* swoosh1.caf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,6 +44,23 @@
 		653E5F032AD4440B002FC33F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		653E5F052AD4440C002FC33F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		653E5F082AD4440C002FC33F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		653E5F102AD444A9002FC33F /* sliceFuse.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = sliceFuse.sks; sourceTree = "<group>"; };
+		653E5F112AD444A9002FC33F /* sliceLife@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "sliceLife@2x.png"; sourceTree = "<group>"; };
+		653E5F122AD444A9002FC33F /* sliceBomb@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "sliceBomb@2x.png"; sourceTree = "<group>"; };
+		653E5F132AD444A9002FC33F /* sliceLifeGone@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "sliceLifeGone@2x.png"; sourceTree = "<group>"; };
+		653E5F142AD444A9002FC33F /* spark.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = spark.png; sourceTree = "<group>"; };
+		653E5F152AD444A9002FC33F /* wrong.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = wrong.caf; sourceTree = "<group>"; };
+		653E5F162AD444A9002FC33F /* whack.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = whack.caf; sourceTree = "<group>"; };
+		653E5F172AD444A9002FC33F /* launch.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = launch.caf; sourceTree = "<group>"; };
+		653E5F182AD444A9002FC33F /* explosion.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = explosion.caf; sourceTree = "<group>"; };
+		653E5F192AD444A9002FC33F /* sliceBackground@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "sliceBackground@2x.png"; sourceTree = "<group>"; };
+		653E5F1A2AD444A9002FC33F /* sliceHitEnemy.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = sliceHitEnemy.sks; sourceTree = "<group>"; };
+		653E5F1B2AD444A9002FC33F /* sliceBombFuse.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = sliceBombFuse.caf; sourceTree = "<group>"; };
+		653E5F1C2AD444A9002FC33F /* sliceHitBomb.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = sliceHitBomb.sks; sourceTree = "<group>"; };
+		653E5F1D2AD444A9002FC33F /* penguin@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "penguin@2x.png"; sourceTree = "<group>"; };
+		653E5F1E2AD444A9002FC33F /* swoosh3.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = swoosh3.caf; sourceTree = "<group>"; };
+		653E5F1F2AD444A9002FC33F /* swoosh2.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = swoosh2.caf; sourceTree = "<group>"; };
+		653E5F202AD444A9002FC33F /* swoosh1.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = swoosh1.caf; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,8 +101,33 @@
 				653E5F022AD4440B002FC33F /* Main.storyboard */,
 				653E5F052AD4440C002FC33F /* Assets.xcassets */,
 				653E5F072AD4440C002FC33F /* LaunchScreen.storyboard */,
+				653E5F0F2AD444A9002FC33F /* Content */,
 			);
 			path = SwiftyNinja;
+			sourceTree = "<group>";
+		};
+		653E5F0F2AD444A9002FC33F /* Content */ = {
+			isa = PBXGroup;
+			children = (
+				653E5F102AD444A9002FC33F /* sliceFuse.sks */,
+				653E5F112AD444A9002FC33F /* sliceLife@2x.png */,
+				653E5F122AD444A9002FC33F /* sliceBomb@2x.png */,
+				653E5F132AD444A9002FC33F /* sliceLifeGone@2x.png */,
+				653E5F142AD444A9002FC33F /* spark.png */,
+				653E5F152AD444A9002FC33F /* wrong.caf */,
+				653E5F162AD444A9002FC33F /* whack.caf */,
+				653E5F172AD444A9002FC33F /* launch.caf */,
+				653E5F182AD444A9002FC33F /* explosion.caf */,
+				653E5F192AD444A9002FC33F /* sliceBackground@2x.png */,
+				653E5F1A2AD444A9002FC33F /* sliceHitEnemy.sks */,
+				653E5F1B2AD444A9002FC33F /* sliceBombFuse.caf */,
+				653E5F1C2AD444A9002FC33F /* sliceHitBomb.sks */,
+				653E5F1D2AD444A9002FC33F /* penguin@2x.png */,
+				653E5F1E2AD444A9002FC33F /* swoosh3.caf */,
+				653E5F1F2AD444A9002FC33F /* swoosh2.caf */,
+				653E5F202AD444A9002FC33F /* swoosh1.caf */,
+			);
+			path = Content;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -129,11 +188,28 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				653E5F2D2AD444A9002FC33F /* sliceHitBomb.sks in Resources */,
 				653E5F042AD4440B002FC33F /* Main.storyboard in Resources */,
+				653E5F2C2AD444A9002FC33F /* sliceBombFuse.caf in Resources */,
+				653E5F2A2AD444A9002FC33F /* sliceBackground@2x.png in Resources */,
+				653E5F282AD444A9002FC33F /* launch.caf in Resources */,
+				653E5F2B2AD444A9002FC33F /* sliceHitEnemy.sks in Resources */,
+				653E5F242AD444A9002FC33F /* sliceLifeGone@2x.png in Resources */,
+				653E5F2E2AD444A9002FC33F /* penguin@2x.png in Resources */,
 				653E5EFB2AD4440B002FC33F /* GameScene.sks in Resources */,
+				653E5F2F2AD444A9002FC33F /* swoosh3.caf in Resources */,
 				653E5F062AD4440C002FC33F /* Assets.xcassets in Resources */,
 				653E5F092AD4440C002FC33F /* LaunchScreen.storyboard in Resources */,
+				653E5F252AD444A9002FC33F /* spark.png in Resources */,
 				653E5EFD2AD4440B002FC33F /* Actions.sks in Resources */,
+				653E5F292AD444A9002FC33F /* explosion.caf in Resources */,
+				653E5F312AD444A9002FC33F /* swoosh1.caf in Resources */,
+				653E5F232AD444A9002FC33F /* sliceBomb@2x.png in Resources */,
+				653E5F212AD444A9002FC33F /* sliceFuse.sks in Resources */,
+				653E5F302AD444A9002FC33F /* swoosh2.caf in Resources */,
+				653E5F262AD444A9002FC33F /* wrong.caf in Resources */,
+				653E5F222AD444A9002FC33F /* sliceLife@2x.png in Resources */,
+				653E5F272AD444A9002FC33F /* whack.caf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -306,6 +382,7 @@
 				INFOPLIST_KEY_UIStatusBarHidden = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -334,6 +411,7 @@
 				INFOPLIST_KEY_UIStatusBarHidden = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
