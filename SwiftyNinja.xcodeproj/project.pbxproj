@@ -32,6 +32,7 @@
 		653E5F2F2AD444A9002FC33F /* swoosh3.caf in Resources */ = {isa = PBXBuildFile; fileRef = 653E5F1E2AD444A9002FC33F /* swoosh3.caf */; };
 		653E5F302AD444A9002FC33F /* swoosh2.caf in Resources */ = {isa = PBXBuildFile; fileRef = 653E5F1F2AD444A9002FC33F /* swoosh2.caf */; };
 		653E5F312AD444A9002FC33F /* swoosh1.caf in Resources */ = {isa = PBXBuildFile; fileRef = 653E5F202AD444A9002FC33F /* swoosh1.caf */; };
+		653E5F332AD58EF5002FC33F /* gameOver@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 653E5F322AD58EF5002FC33F /* gameOver@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -61,6 +62,7 @@
 		653E5F1E2AD444A9002FC33F /* swoosh3.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = swoosh3.caf; sourceTree = "<group>"; };
 		653E5F1F2AD444A9002FC33F /* swoosh2.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = swoosh2.caf; sourceTree = "<group>"; };
 		653E5F202AD444A9002FC33F /* swoosh1.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = swoosh1.caf; sourceTree = "<group>"; };
+		653E5F322AD58EF5002FC33F /* gameOver@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "gameOver@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -126,6 +128,7 @@
 				653E5F1E2AD444A9002FC33F /* swoosh3.caf */,
 				653E5F1F2AD444A9002FC33F /* swoosh2.caf */,
 				653E5F202AD444A9002FC33F /* swoosh1.caf */,
+				653E5F322AD58EF5002FC33F /* gameOver@2x.png */,
 			);
 			path = Content;
 			sourceTree = "<group>";
@@ -197,6 +200,7 @@
 				653E5F242AD444A9002FC33F /* sliceLifeGone@2x.png in Resources */,
 				653E5F2E2AD444A9002FC33F /* penguin@2x.png in Resources */,
 				653E5EFB2AD4440B002FC33F /* GameScene.sks in Resources */,
+				653E5F332AD58EF5002FC33F /* gameOver@2x.png in Resources */,
 				653E5F2F2AD444A9002FC33F /* swoosh3.caf in Resources */,
 				653E5F062AD4440C002FC33F /* Assets.xcassets in Resources */,
 				653E5F092AD4440C002FC33F /* LaunchScreen.storyboard in Resources */,

@@ -449,5 +449,13 @@ class GameScene: SKScene {
             livesImages[1].texture = SKTexture(imageNamed: "sliceLifeGone")
             livesImages[2].texture = SKTexture(imageNamed: "sliceLifeGone")
         }
+        
+        showGameOverNode()
+    }
+    
+    func showGameOverNode() {
+        let gameOverNode = SKSpriteNode(imageNamed: "gameOver")
+        gameOverNode.position = CGPoint(x: frame.midX, y: frame.midY)
+        addChild(gameOverNode)
     }
 }
