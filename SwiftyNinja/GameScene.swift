@@ -329,6 +329,7 @@ class GameScene: SKScene {
     }
     
     override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {
+        print("A")
         guard let touch = touches.first else { return }
         
         activeSlicePoints.removeAll(keepingCapacity: true)
@@ -343,6 +344,14 @@ class GameScene: SKScene {
         
         activeSliceBG.alpha = 1
         activeSliceFG.alpha = 1
+        
+        let nodesAtPoint = nodes(at: location)
+        for case let node as SKLabelNode in nodesAtPoint {
+            if node.name == "playAgainButton" {
+                resetGame()
+                return
+            }
+        }
     }
     
     override func touchesEnded(_ touches: Set<UITouch>, with event: UIEvent?) {
@@ -429,7 +438,7 @@ class GameScene: SKScene {
 
         life.xScale = 1.3
         life.yScale = 1.3
-        life.run(SKAction.scale(to: 1, duration:0.1))
+        life.run(SKAction.scale(to: 1, duration: 0.1))
     }
     
     func endGame(triggeredByBomb: Bool) {
@@ -439,7 +448,6 @@ class GameScene: SKScene {
 
         isGameEnded = true
         physicsWorld.speed = 0
-        isUserInteractionEnabled = false
 
         bombSoundEffect?.stop()
         bombSoundEffect = nil
@@ -450,12 +458,54 @@ class GameScene: SKScene {
             livesImages[2].texture = SKTexture(imageNamed: "sliceLifeGone")
         }
         
+        for node in children {
+            if node.name == "enemy" {
+                node.removeFromParent()
+            }
+        }
+        
         showGameOverNode()
     }
     
     func showGameOverNode() {
         let gameOverNode = SKSpriteNode(imageNamed: "gameOver")
+        gameOverNode.name = "gameOverNode"
         gameOverNode.position = CGPoint(x: frame.midX, y: frame.midY)
         addChild(gameOverNode)
+        
+        let playAgainButton = SKLabelNode(fontNamed: "Chalkduster")
+        playAgainButton.text = "Play Again"
+        playAgainButton.fontSize = 36
+        playAgainButton.position = CGPoint(x: frame.midX, y: frame.midY - 100)
+        playAgainButton.name = "playAgainButton"
+        addChild(playAgainButton)
+    }
+    
+    func resetGame() {
+        isGameEnded = false
+        score = 0
+        lives = 3
+
+        for i in 0 ..< livesImages.count {
+            livesImages[i].texture = SKTexture(imageNamed: "sliceLife")
+        }
+        
+        if let playAgainButton = childNode(withName: "playAgainButton") {
+            playAgainButton.removeFromParent()
+        }
+
+        if let gameOverNode = childNode(withName: "gameOverNode") {
+            gameOverNode.removeFromParent()
+        }
+
+        physicsWorld.speed = 0.85
+        isUserInteractionEnabled = true
+
+        sequencePosition = 0
+        nextSequenceQueued = true
+        popupTime = 0.9
+        chainDelay = 3.0
+
+        tossEnemies()
     }
 }
